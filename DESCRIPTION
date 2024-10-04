@@ -16,3 +16,7 @@ Depends:
 LazyData: true
 URL: https://github.com/paocorrales/paqueteprueba
 BugReports: https://github.com/paocorrales/paqueteprueba/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
