@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# paqueteprueba
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+El objetivo del paquete paqueteprueba es mostrar como se crea un paquete con una funcion de suma de ejemplo. 
+
+## Instalacion
+
+You can install the development version of paqueteprueba from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("paocorrales/paqueteprueba")
+```
+
+## Ejemplo
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(paqueteprueba)
+suma(2,2)
+```
+
+
