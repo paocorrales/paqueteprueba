@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   vinieta_prueba: vinieta_prueba.html
-last_built: 2024-10-18T13:07Z
+last_built: 2024-10-18T13:28Z
 urls:
   reference: https://paocorrales.github.io/paqueteprueba/reference
   article: https://paocorrales.github.io/paqueteprueba/articles
