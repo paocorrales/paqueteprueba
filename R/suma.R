@@ -18,6 +18,7 @@
 #' @export
 suma <- function(x = 2, y = 2) {
 
+  # Chequea que los argumentos sean numericos
   if (!is.numeric(x) | !is.numeric(y)) {
 
     cli::cli_abort(c(
