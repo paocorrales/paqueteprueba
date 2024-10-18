@@ -4,11 +4,11 @@
 #'
 #' Estos son detalles extras de la función.
 #'
-#' @param x un vector numérico positivo
-#' @param y un vector numérico
+#' @param x un vector numrico positivo
+#' @param y un vector numrico
 #'
 #' @return
-#' Un vector numérico con la suma de `x` e `y`.
+#' Un vector numerico con la suma de `x` e `y`.
 #'
 #' @examples
 #' suma(2, 2)
@@ -18,11 +18,11 @@
 #' @export
 suma <- function(x = 2, y = 2) {
 
-  # Chequea que los argumentos sean numericos
+  # Chequea que los argumentos sean num\U00E9ricos
   if (!is.numeric(x) | !is.numeric(y)) {
 
     cli::cli_abort(c(
-      "i" = "Los argumentos deben ser numéricos.",
+      "i" = "Los argumentos deben ser num\U00E9ricos.",
       "x" = "x es {class(x)}, y es {class(y)}"
     ))
   }
