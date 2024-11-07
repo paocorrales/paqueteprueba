@@ -1,4 +1,5 @@
 url: https://paocorrales.github.io/paqueteprueba/
 template:
   bootstrap: 5
-
+  light-switch: true
+  bootswatch: materia
