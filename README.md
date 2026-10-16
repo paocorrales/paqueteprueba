@@ -9,7 +9,7 @@
 
 The goal of paqueteprueba is to …
 
-## Installation
+## Instalación
 
 You can install the development version of paqueteprueba from
 [GitHub](https://github.com/) with:
