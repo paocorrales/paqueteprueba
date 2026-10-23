@@ -6,8 +6,7 @@ Authors@R:
 Description: paqueteprueba es un paquete de ejemplo desarollado para
     aprender a desarrollar paquetes de R. No está pensando para ser 
     instalado y no garantizamos que funcione siempre. Está en desarrollo.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
